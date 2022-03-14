@@ -1,0 +1,5 @@
+# ninja log v5
+3	78	6688892790883625	CMakeFiles/tokenizer_ch.dir/main.cpp.obj	e63ef69d04ff740d
+297	433	6688893127785153	tokenizer_ch.exe	aa581427ca75ec47
+4	296	6688893126469686	CMakeFiles/tokenizer_ch.dir/utf8.cpp.obj	70a33bf89d066999
+3	129	6688884209459906	CMakeFiles/tokenizer_ch.dir/trieCH.cpp.obj	748400424f6355d9

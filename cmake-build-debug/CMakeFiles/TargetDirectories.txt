@@ -1,0 +1,3 @@
+C:/Users/l/Desktop/desktop/programming/C++/tokenizer-ch/tokenizer-ch/cmake-build-debug/CMakeFiles/tokenizer_ch.dir
+C:/Users/l/Desktop/desktop/programming/C++/tokenizer-ch/tokenizer-ch/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/l/Desktop/desktop/programming/C++/tokenizer-ch/tokenizer-ch/cmake-build-debug/CMakeFiles/rebuild_cache.dir
