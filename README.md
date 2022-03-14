@@ -26,9 +26,13 @@
 直接用`fgets`读入utf-8编码的内容存放到字符串`char *buff`中，此时由于很多字符占了超过1个字节，因此无法直接处理`buff`中的内容
 #### 第二步
 包含下面两个接口:
+
 `int decode(char *buff,int *res);`
-将保存了字符串的`buff`中的内容以字为单位存放到`res`中，此时`res`中每个元素都是一个完整utf-8字符的二进制编码，函数返回值为`res`长度
+
+将保存了字符串的`buff`中的内容以字为单位存放到`res`中，此时`res`中每个元素都是一个完整utf-8字符的二进制编码，函数返回值为`res`的长度
+
 `void encode(FILE *fout, const int *res, int res_L, int mode = CHARFORM);`
+
 将`res`的[0,resL)部分的编码所代表的utf-8字符输出到`fout`中,默认输出字符,如果`mode = INTFORM`,则输出utf-8编码数值
 
 ### trieCH.h
@@ -46,8 +50,13 @@ namespace trieCH {
 }
 ```
 调用接口如下：
+
 `trieNode* trieCH::buildTrie(FILE *fin)`
+
 从`fin`中读入词库，生成字典树，返回根节点的指针
-`trieNode* trieCH::trieNode::getChild(int code);` //获取对应utf-8字符编码为code的子节点的地址
+
+`trieNode* trieCH::trieNode::getChild(int code);` 
+
+获取对应utf-8字符编码为code的子节点的地址
 
 
